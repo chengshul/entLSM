@@ -10,7 +10,7 @@ plt.semilogy(range(1,11),corr_H[:10],'o-',label=r"$|0\rangle_H$")
 plt.semilogy(range(1,11),corr_K[:10],'s-',label=r"$|0\rangle_K$")
 
 plt.xlabel("$|i-j|$",fontsize=30)
-plt.ylabel(r"$|\langle\mathbf{S}_i\cdot\mathbf{S}_j\rangle|$",fontsize=30)
+plt.ylabel(r"$|\langle\hat{\mathbf{S}}_{i,s}\cdot\hat{\mathbf{S}}_{j,s}\rangle|$",fontsize=30)
 plt.xticks([2,4,6,8,10],fontsize=30)
 plt.yticks([1e-1,1e-3,1e-5],fontsize=30)
 plt.legend(fontsize=30)
